@@ -17,7 +17,7 @@ Nesse repositório guardo todas as anotações, materiais e projetos que foram r
 
 - [ ] Módulo A
 - [ ] Módulo B
-- [ ] Módulo C
+- [X] Módulo C
 - [ ] Módulo D
 - [ ] Módulo E
 - [ ] Módulo F
