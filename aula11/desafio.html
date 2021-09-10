@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrangeito ou Brasileiro</title>
+</head>
+<body>
+    <h1>Sistema de nacionalidade</h1>
+    <input type="text" name="" id="txtnacionalidade">
+    <input type="button" value="Verificar" onclick="verificar()">
+    <div id="resultado" ></div>
+
+    <script>
+        function verificar () {
+            var nacionalidade = document.getElementById('txtnacionalidade')
+            var resultado = document.getElementById('resultado')
+
+            var verificacao = String(nacionalidade.value)
+            resultado.innerText = `Seu país é ${resultado}`
+            if (verificacao === 'bra') {
+                console.log('if == bra')
+                resultado.innerHTML = 'Brasileiro'
+            } else  {
+                console.log('else')
+                resultado.innerHTML = 'Estrangeiro'
+            }
+        }
+    </script>
+</body>
+</html>
