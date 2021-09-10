@@ -1,3 +1,5 @@
+![curso-javascript-guanabara-banner](https://user-images.githubusercontent.com/74930052/132879173-7abb5dc6-cb73-433d-bd15-e51ba25cb692.png)
+----
 <img src="https://img.shields.io/static/v1?label=Status&message=incomplete&color=ff0000&style=for-the-badge&logo=ghost"/>
 
 <p align="center">Esse curso esta disponível no canal do Curso em Vídeo: <a href="https://www.youtube.com/watch?v=1-w1RfGIov4&list=PLHz_AreHm4dlsK3Nr9GVvXCbpQyHQl1o1&index=1" target='_blank'> Aqui </a> </p>
