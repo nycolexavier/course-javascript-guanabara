@@ -17,7 +17,7 @@ Nesse repositório guardo todas as anotações, materiais e projetos que foram r
 
 ### Features
 
-- [ ] Módulo A
+- [A] Módulo A
 - [ ] Módulo B
 - [X] Módulo C
 - [X] Módulo D
