@@ -1,40 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Primeiros passos com DOM</title>
+    <title>Aprendendo DOM</title>
+
     <style>
-        body{
-            background: rgb(68, 125, 199);
-            color:white;
+        body {
+            background: rgb(118, 45, 45);
+            color: #fff;
             font: normal 18pt Arial;
         }
     </style>
 </head>
 <body>
-    <h1>Iniciando estudos DOM</h1>
+    <h1>Inciando estudos</h1>
+
     <p>Aqui vai o resultado</p>
-    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript </p>
+
     <div id="msg" >Clique em mim</div>
 
     <script>
-        
+
+        // getElementsByTagName
         var corpo = document.body
-        // por marca
         var p1 = document.getElementsByTagName('p')[1]
+        
 
-        // por id
-        var d = document.getElementById('msg')
+        // getElementsById
+        // var d = document.getElementById('msg')
+        // d.style.background = 'green'
+        // d.innerText = 'Estou aguardando..'
 
-        // por nome
-        document.getElementsByTagName()
-        // por classe
-        document.getElementsByClassName()
-
-        // por seletor
-        document.querySelector('div#msg')
+        var d = document.querySelector('div#msg')
+        d.style.background = 'blue'
     </script>
 </body>
 </html>
