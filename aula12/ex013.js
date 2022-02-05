@@ -1,15 +1,15 @@
 var agora = new Date()
-var diaDaSemana = agora.getDay()
 
+var diaSem = agora.getDay()
 
-// console.log(diaDaSemana)
+// console.log(diaSem)
 
-switch (diaDaSemana) {
+switch (diaSem) {
     case 0:
-        console.log('Domingo')
+        console.log('Domingo!')
         break
     case 1:
-        console.log('Segunda')
+        console.log('Segunda!')
         break
     case 2:
         console.log('Terça')
@@ -27,6 +27,5 @@ switch (diaDaSemana) {
         console.log('Sábado')
         break
     default:
-        console.log('[ERRO] Dia inválido')
-        break
+        console.log('Dia inválido')
 }
