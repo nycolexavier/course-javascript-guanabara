@@ -1,6 +1,7 @@
 function carregar() {
     var msg = document.getElementById('msg')
     var img = document.getElementById('imagem')
+
     var data = new Date()
     var hora = data.getHours()
     msg.innerHTML =  `Agora são ${hora} horas.`
@@ -14,7 +15,7 @@ function carregar() {
         img.src = 'assets/fototarde.jpg'
         document.body.style.background = '#b9846f'
     } else {
-        // noite
+        // Boa noite
         img.src = 'assets/fotonoite.jpg'
         document.body.style.background = '#515154'
     }
