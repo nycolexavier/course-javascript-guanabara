@@ -21,7 +21,7 @@ Nesse repositório guardo todas as anotações, materiais e projetos que foram r
 - [X] Módulo B
 - [X] Módulo C
 - [X] Módulo D
-- [ ] Módulo E
+- [X] Módulo E
 - [ ] Módulo F
 
 ### Tecnologias
